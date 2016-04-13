@@ -1,0 +1,16 @@
+body{
+   background-color: #432C2C;
+ 
+}
+.main {
+    text-align: center;
+    margin-top: 20%;
+       font-family: 'Raleway', sans-serif;
+    
+    color: snow;
+}
+img{
+    border-radius: 50%;
+    width: 10%;
+}
+
