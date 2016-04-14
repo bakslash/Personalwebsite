@@ -8,7 +8,7 @@ body{
     margin-top: 20%;
        font-family: 'Raleway', sans-serif;
     color: darkcyan
-    padding-bottom: 30%;
+    padding-bottom: 20%;
 }
 img{
     border-radius: 50%;
@@ -26,10 +26,26 @@ a{
     padding: 15px;
     margin-left: 100px;
     font-size: 20px;
+    font font-family: 'Raleway', sans-serif;
 }
 
+#portfolio{
+    text-align: center;
 
+}
+#blog{
+    text-align: center;
+}
+#About-me{
+    background-color: darkgray;
+    color: snow;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-left: 0;
+    padding-left: 0;
+    margin: 0;
 
+}
 
 
 .nav {
@@ -40,9 +56,25 @@ a{
 #skills {
     margin-top: 30%;
     text-align: center;
+    margin-bottom: 5%;
+
+}
+
+#skills ul li{
+    list-style: none;
+    font font-family: 'Raleway', sans-serif;
+    padding: 2%:
 
 }
 
 h1{
     font-family: 'Raleway', sans-serif;
+}
+#About-me ul li{
+    list-style: none;
+    font font-family: 'Raleway', sans-serif;
+    padding: 2%:
+}
+#Contact{
+    text-align: center;
 }
