@@ -6,6 +6,7 @@ body{
     margin-top: 20%;
        font-family: 'Raleway', sans-serif;
     color: snow;
+    padding-bottom: 30%;
 }
 img{
     border-radius: 50%;
@@ -25,9 +26,9 @@ ul li{
     font-size: 20px;
 }
 
-.home img {
-width: 100%;
-    border-radius: 0%
+#skills img{
+    width: 100%;
+}
 
 }
 
