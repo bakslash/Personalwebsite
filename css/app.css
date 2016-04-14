@@ -1,11 +1,13 @@
 body{
-   background-color: #432C2C;
+   background-image: url(/images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main {
     text-align: center;
     margin-top: 20%;
        font-family: 'Raleway', sans-serif;
-    color: snow;
+    color: darkcyan
     padding-bottom: 30%;
 }
 img{
@@ -18,7 +20,7 @@ a{
     color: azure;
      font font-family: 'Raleway', sans-serif;
 }
-ul li{
+.nav ul li{
     list-style: none;
     float: left;
     padding: 15px;
@@ -26,13 +28,21 @@ ul li{
     font-size: 20px;
 }
 
-#skills img{
-    width: 100%;
-}
 
-}
+
+
 
 .nav {
     margin: 0;
     padding: 0;
+}
+
+#skills {
+    margin-top: 30%;
+    text-align: center;
+
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
 }
