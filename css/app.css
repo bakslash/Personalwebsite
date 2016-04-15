@@ -2,6 +2,7 @@ body{
    background-image: url(/images/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .main {
     text-align: center;
@@ -12,7 +13,7 @@ body{
 }
 img{
     border-radius: 50%;
-    width: 10%;
+    width: 6%;
 }
 
 a{
@@ -32,17 +33,18 @@ a{
 }
 
 #portfolio{
-    background-color: #282423;
+   ;
     text-align: center;
 
 }
 #blog{
-    background-color: #282423;
+
     text-align: center;
     color: whitesmoke;
+    padding-bottom: 5%;
 }
 #About-me{
-    color: #282423;
+    color: whitesmoke;
     text-align: center;
     padding-bottom: 2%;
     padding-left: 0;
@@ -61,10 +63,13 @@ a{
     margin-top: 20%;
     text-align: center;
     margin-bottom: 5%;
+    color: whitesmoke;
+
 
 }
 
 #skills ul li{
+    font-size: 20px;
     list-style: none;
     font font-family: 'Raleway', sans-serif;
     padding: 2%:
@@ -73,14 +78,16 @@ a{
 
 h1{
     font-family: 'Raleway', sans-serif;
-    color: #CCABA8;
+    color: #301914
 }
 #About-me ul li{
+    font-size: 20px;
     list-style: none;
     font font-family: 'Raleway', sans-serif;
 
 }
 #Contact{
+
     text-align: center;
 }
 #portfolio img{
@@ -98,3 +105,30 @@ h1{
 a.button{
     margin-left: 3%;
 }
+
+#box    {  width:100%;
+           height:20%;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin:5% auto 0 auto;
+          background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:visible}
+
+#overlay    {  background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:45px 0 66px 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;}
+
+#box:hover #overlay {
+               opacity:1;}
+
+#plus       {  font-family:Helvetica;
+               font-weight:900;
+               color:rgba(255,255,255,.85);
+               font-size:96px;}
+
