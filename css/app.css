@@ -1,10 +1,13 @@
+
+
+
 body{
-   background-image: url(/images/back.jpg);
+   background-image: url(../images/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.main {
+#main {
     text-align: center;
     margin-top: 20%;
        font-family: 'Raleway', sans-serif;
@@ -34,7 +37,7 @@ a{
 }
 
 #portfolio{
-   ;
+
     text-align: center;
 
 }
@@ -77,7 +80,7 @@ a{
 
 }
 
-h1{
+h1 h2 h3{
     font-family: 'Raleway', sans-serif;
     color: #301914
 }
@@ -101,11 +104,13 @@ h1{
 }
 .comments {
     margin-bottom: 5%
+}
 
-}
-a.button{
-    margin-left: 50%;
-}
+        .button.small{
+            margin-left: 5%;
+    }
+
+
 
 #box    {  width:100%;
            height:20%;
@@ -115,7 +120,7 @@ a.button{
           background:url(http://ianfarb.com/wp-content/uploads/2013/10/nicholas-hodag.jpg);
   background-size:cover;
 border-radius:5px;
-overflow:visible;
+overflow:hidden;
 }
 
 #overlay    {  background:rgba(0,0,0,.75);
@@ -134,3 +139,66 @@ overflow:visible;
                color:rgba(255,255,255,.85);
                font-size:96px;}
 
+#submit{
+    margin-left: 45%;
+  text-align: center;
+    width: 120px
+}
+
+@keyframes portfolio{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+
+}
+#portfolio{
+    overflow: hidden;
+}
+#portfolio figure img{
+    width:20%;
+    float: left;
+    padding-left:  1%;
+     padding-right:  1%;
+     padding-bottom:  2%;
+    height: 650px;
+}
+#portfolio figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 12s portfolio infinite;
+#nav {
+    align-content: center;
+    margin-left: 20%;
+}
+
+.fa-angle-double-down {
+    align-content: center;
+}
