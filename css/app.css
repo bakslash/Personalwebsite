@@ -2,21 +2,22 @@
 
 
 body{
-background-image: url(../images/bak.jpg);
+background-image: url(../images/back1.png);
     font-family: 'Raleway', sans-serif;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 #main {
-    background-image: url(../images/contact.jpg);
+   /* background-image: url(../images/contact.jpg);*/
     width: 100%;
     
     text-align: center;
    background-size: cover;
     height: 600px;
        font-family: 'Raleway', sans-serif;
+    margin-bottom: 20%;
 
 
 }
@@ -56,11 +57,11 @@ color :black;
     padding-top: 2%;
 text-align: center;
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding-bottom: 5%;
 
 }
 #About-me{
-    color: cornsilk;
+    color: #2C2B23;
     text-align: center;
     padding-bottom: 2%;
     padding-left: 0;
@@ -68,14 +69,15 @@ text-align: center;
     margin-top: 6%;
     height: 300px;
     width: 100%;
-    background-image: url(../images/back1.jpg);
+   /* background-image: url(../images/back1.jpg);*/
      background-attachment: fixed;
     background-size: cover;
 
 }
 h3{
   font font-family: 'Raleway', sans-serif;
-    color: cornsilk;
+    color: #2C2B23;
+   /* background-color: #573D3D;*/
 }
 
 #nav {
@@ -83,22 +85,28 @@ h3{
      font font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
+
+}
+#nav a{
+    color:#2C2B23;
 }
 
 #skills {
-    background-image: url(../images/back1.jpg);
-background-size: cover;
-    background-attachment: fixed;
+   background-color: white;
+    /*background-attachment: fixed;*/
     width: 100%;
     text-align: center;
-    padding-top: 5%;
-    color: whitesmoke;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    
+    padding-top: 3%;
+    color: #2C2B23;
 height: 300px;
 
 }
+#skills img{
+    height: 100px;
+    padding: 5px;
+    width: 100px;
+}
+
 
 #skills ul li{
     font-size: 20px;
@@ -110,14 +118,16 @@ height: 300px;
 
 h1 {
     text-align: center;
-    padding-top: 12%;
+    padding-top: 19%;
     font-family: 'Raleway', sans-serif;
-    color: cornsilk;
+    color: #2C2B23;
 }
 h2{
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    color: cornsilk;
+    color: #2C2B23;
+    border-bottom: 2px black solid;
+    /*background-color: #573D3D;*/
 
 }
 #About-me ul li{
@@ -128,10 +138,10 @@ h2{
 
 }
 #Contact{
-    margin-top: 0;
+    margin-top: 4%;
     padding-top: 0;
  background-attachment:scroll;
-background-color: #CBA389;
+background-color: #2C2B23;
     text-align: center;
     height: 300px;
     background-repeat: no-repeat;
@@ -140,6 +150,7 @@ background-color: #CBA389;
 #heading{
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    margin-top: 34%;
 }
 #portfolio img{
     border-radius: 0;
@@ -151,6 +162,8 @@ background-color: #CBA389;
 }
 #blog img{
     border-radius: 50%;
+    margin-bottom: 0;
+
     
 }
 .comments {
@@ -254,3 +267,14 @@ overflow:hidden;
 .fa-angle-double-down {
     align-content: center;
 }
+
+#main animated bounce {
+
+}
+
+.intro {
+
+}
+
+
+
