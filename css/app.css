@@ -2,7 +2,7 @@
 
 
 body{
-background-image: url(../images/back1.png);
+background-image: url(../images/back1.jpg);
     font-family: 'Raleway', sans-serif;
     background-attachment:fixed;
     background-repeat: no-repeat;
@@ -20,6 +20,7 @@ background-image: url(../images/back1.png);
     margin-bottom: 20%;
 
 
+
 }
 /*img{
     border-radius: 50%;
@@ -34,10 +35,10 @@ a{
 
 }
 #nav ul{
-    color: black;
+    color: snow;
 }
 #nav ul li{
-color :black;
+color :snow;
     text-decoration: none;
     list-style: none;
     float: left;
@@ -61,7 +62,7 @@ text-align: center;
 
 }
 #About-me{
-    color: #2C2B23;
+    color: snow;
     text-align: center;
     padding-bottom: 2%;
     padding-left: 0;
@@ -69,15 +70,16 @@ text-align: center;
     margin-top: 6%;
     height: 300px;
     width: 100%;
-   /* background-image: url(../images/back1.jpg);*/
-     background-attachment: fixed;
-    background-size: cover;
+
 
 }
-h3{
+h4{
   font font-family: 'Raleway', sans-serif;
-    color: #2C2B23;
-   /* background-color: #573D3D;*/
+    color:snow;
+    text-align: center;
+    padding: 10px;
+
+
 }
 
 #nav {
@@ -88,17 +90,20 @@ h3{
 
 }
 #nav a{
-    color:#2C2B23;
+    color:snow;
 }
 
 #skills {
-   background-color: white;
-    /*background-attachment: fixed;*/
+  /* background-color: #B79A6E ;*/
     width: 100%;
     text-align: center;
     padding-top: 3%;
-    color: #2C2B23;
+    color:snow;
 height: 300px;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+
 
 }
 #skills img{
@@ -120,12 +125,12 @@ h1 {
     text-align: center;
     padding-top: 19%;
     font-family: 'Raleway', sans-serif;
-    color: #2C2B23;
+    color: snow;
 }
 h2{
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    color: #2C2B23;
+    color: snow;
     border-bottom: 2px black solid;
     /*background-color: #573D3D;*/
 
@@ -141,7 +146,7 @@ h2{
     margin-top: 4%;
     padding-top: 0;
  background-attachment:scroll;
-background-color: #2C2B23;
+background-color: B79A6E;
     text-align: center;
     height: 300px;
     background-repeat: no-repeat;
@@ -163,6 +168,10 @@ background-color: #2C2B23;
 #blog img{
     border-radius: 50%;
     margin-bottom: 0;
+    height: 10%;
+    width: 10%;
+    margin-left:  2%;
+
 
     
 }
